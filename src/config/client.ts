@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "8",
 
   // Services
   services: [
@@ -79,9 +79,14 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Mike Wilks", rating: 5, text: "We are delighted with the garden design provided by Barry Chambers (Garden Design Guru).  We love the final result, which has exceeded our expectations.  The garden has been admired by family and friends, when they were able, in these …  ", date: "5 years ago" },
+    { name: "Charlie Inigo-Jones", rating: 5, text: "Barry has done a fantastic job in bringing my modest garden to life. I didn’t really know what I wanted but he listened to my rambling ideas and has created two really original - but very different - front and rear beds. Both survived the …  ", date: "8 months ago" },
+    { name: "Brian Langham", rating: 5, text: "Having moved into a new build house with a fenced green lawn, we needed help transforming it into an interesting space.  Barry provided us with three designs and planting, taking note of what we required and advising us as to what would …  ", date: "2 years ago" },
+    { name: "PHI", rating: 5, text: "We have been working with Barry for a little over a year on a large and complete redesign of our house gardens. He has been an absolute pleasure to deal from start to finish. …  ", date: "2 years ago" },
+    { name: "Patricia Steadman", rating: 5, text: "Barry has a wealth of plant and landscape knowledge. Delighted how Barry transformed our front garden. Looking forward  to seeing how the plants establish and mature over the differing seasons. Would recommend Barry to any potential clients.  ", date: "Edited 2 years ago" },
+    { name: "Tricia Glover", rating: 5, text: "I am so happy with the transformation of a problem area in my garden. Barry has been very supportive in helping me with my vision where I knew what I wanted but was not confident and stuck as to how to move forward. Barry's experience and …  ", date: "2 years ago" },
+    { name: "Angus Macarthur", rating: 5, text: "We live in an exposed area very near the sea, which is frequently battered by strong winds and salty rain, and we engaged Barry to design a garden with a coastal theme that could withstand and flourish in such conditions. The area of our …  ", date: "3 years ago" },
+    { name: "Barbara dawes", rating: 5, text: "My garden was a blank canvas of grass when I moved in a year ago.  Barry looked at the site and listened to my requirements. He came back with three possible designs and I chose one. …  ", date: "7 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
